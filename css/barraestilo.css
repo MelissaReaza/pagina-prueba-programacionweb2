@@ -1,0 +1,45 @@
+*body{
+    margin: 0;
+}
+
+.barra{
+    position: fixed;
+    left:0;
+    top:300px;
+    margin-left:0%;
+    z-index: 2000;
+   
+}
+.barra ul{
+    list-style: none;
+}
+.barra ul li{
+    border-radius: 0px 200px 200px 0px;
+}
+.barra ul li a{
+    display: inline-block;
+    color: seashell;
+    background: #000;
+    padding: 20px 25px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition:all 500ms ease;
+}
+
+.barra ul li .icon-facebook{
+    background:#3b5998 ;
+}
+.barra ul li .icon-whatsapp{
+    background:#25D366 ;
+}
+.barra ul li .icon-instagram{
+    background:#F56040 ;
+}
+.barra ul li .icon-mail4{
+    background:#FD1D1D;
+}
+.barra ul li a:hover{
+    padding: 20px 50px;
+    background-color: slategrey;
+}
